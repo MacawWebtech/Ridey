@@ -1,0 +1,9 @@
+OUR PEOPLE - REPLACE WITH YOUR OWN JPG IMAGES
+
+assets/images/about/people-01.jpg  - Olivia Parker / City Operations
+assets/images/about/people-02.jpg  - Ethan Brooks / Fleet & Safety
+assets/images/about/people-03.jpg  - Ava Mitchell / Rider Experience
+assets/images/about/people-04.jpg  - Noah Collins / Product & Mobility
+
+Keep the same filenames to replace images without editing HTML.
+JPG image paths only.

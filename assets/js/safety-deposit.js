@@ -1,0 +1,1 @@
+const safeIO=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.15});document.querySelectorAll('.safety-page .reveal').forEach(el=>safeIO.observe(el));

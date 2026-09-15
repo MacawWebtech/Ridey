@@ -1,0 +1,22 @@
+RIDEY - JPG IMAGE PATHS
+
+Replace these JPG files with your own images. Keep the same filename, or change only the path in the referenced file.
+
+1. Home hero background
+   assets/images/home/home-hero.jpg
+   Used in: assets/css/style.css
+
+2. Home hero product image
+   assets/images/home/home-product.jpg
+   Used in: index.html
+
+3. Home final CTA background
+   assets/images/home/home-cta.jpg
+   Used in: assets/css/style.css
+
+4. About Us - Why Two Wheels image
+   assets/images/about/about-two-wheels.jpg
+   Used in: assets/css/about-us.css
+
+All paths use JPG only. No Unsplash or other remote image URL is used.
+No layout, section, animation, text, dashboard, or responsive code was changed.

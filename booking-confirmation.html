@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0b0b"><title>Booking Confirmation — Ridey</title><meta name="description" content="Review your Ridey scooter rental confirmation, pickup details, return deadline, deposit and demo agreement."><link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/booking-confirmation.css"><link rel="stylesheet" href="assets/css/theme.css">
+</head><body class="confirmation-page"><a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="index.html"><i>⚡</i> Ridey</a><button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button><nav class="nav" aria-label="Primary navigation"><div class="nav-drop"><button type="button" class="home-menu" aria-haspopup="true" aria-expanded="false">Home</button><div class="nav-sub"><a href="index.html">Home 1</a><a href="home-2.html">Home 2</a></div></div><a href="about-us.html">About Us</a><a href="fleet.html">Fleet</a><a href="pricing.html">Pricing</a><a href="coverage-area.html">Coverage</a><a href="services.html">Services</a><div class="nav-drop"><button type="button" class="home-menu" aria-haspopup="true" aria-expanded="false">Explore</button><div class="nav-sub"><a href="safety-deposit.html">Safety Deposit</a><a href="gallery.html">Gallery</a><a href="blog.html">Blog</a></div></div><a href="contact.html">Contact</a><a href="login.html">Login</a><a class="nav-book" href="book-now.html">Book Now</a></nav><a class="login" href="book-now.html">Book a ride</a><button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Dark mode">☾</button></header>
+<main id="main">
+<section class="confirm-hero" id="top"><div class="confirm-copy reveal"><small>BOOKING PREVIEW / READY FOR PICKUP</small><h1>Your ride<br><em>has a route.</em></h1><p>This static template shows how a successful rental confirmation can look after a real booking/payment integration.</p><a href="#receipt">Open ride receipt ↓</a></div><div class="hero-ticket" aria-hidden="true"><span>RIDEY / CONFIRMATION</span><strong>RY-260915-0842</strong><div class="scan-line"></div><b>✓</b><small>DEMO CONFIRMATION</small></div><div class="hero-road" aria-hidden="true"><i></i><b>⚡</b></div></section>
+
+<section class="receipt-stage" id="receipt"><div class="receipt-intro reveal"><small>01 / RIDE RECEIPT</small><h2>Everything<br>you need to go.</h2><p>A mobility receipt instead of another card grid: booking identity, machine, pickup and deadline stay together in one scannable strip.</p></div><article class="mobility-receipt"><header><span>RIDEY CITY RENTAL</span><b id="bookingId">RY-260915-0842</b></header><div class="receipt-route"><i></i><span>CENTRAL HUB</span><b>→</b><span>RETURN HUB</span><i></i></div><dl><div><dt>SCOOTER</dt><dd id="confirmModel">R1 Street</dd></div><div><dt>PICKUP</dt><dd id="confirmPickup">Central Hub · 09:00</dd></div><div><dt>DURATION</dt><dd id="confirmDuration">4 hours</dd></div><div><dt>RETURN BY</dt><dd id="confirmReturn">13:00</dd></div></dl><footer><span>STATUS</span><strong>READY TO VERIFY</strong></footer></article></section>
+
+<section class="deadline-stage"><div class="deadline-orbit" aria-hidden="true"><div class="orbit-ring"><i></i><b>04:00</b><span>RIDE WINDOW</span></div></div><div class="deadline-copy reveal"><small>02 / RETURN DEADLINE</small><h2>The clock rides<br>with you.</h2><p>Your return deadline stays impossible to miss. A real integration can turn this display into a live rental countdown.</p><div class="deadline-line"><span>Pickup</span><i></i><strong>09:00</strong><i></i><span>Return</span><strong>13:00</strong></div></div></section>
+
+<section class="payment-strip"><div class="payment-copy reveal"><small>03 / PAYMENT SUMMARY</small><h2>One clear total.<br>No visual noise.</h2></div><div class="amount-track"><div><small>RENTAL</small><strong>₹396</strong></div><i>＋</i><div><small>ADD-ONS</small><strong>₹0</strong></div><i>＋</i><div><small>REFUNDABLE DEPOSIT</small><strong>₹2,000</strong></div><i>＝</i><div class="amount-total"><small>DEMO DUE</small><strong>₹2,396</strong></div></div><p>*No payment has been processed by this static HTML template.</p></section>
+
+<section class="pickup-sequence"><div class="sequence-head reveal"><small>04 / PICKUP SEQUENCE</small><h2>Three moments.<br>Then ride.</h2></div><div class="sequence-road" aria-hidden="true"><span></span><b class="moving-scooter">⚡</b></div><ol><li><b>01</b><strong>Show booking ID</strong><span>Present your confirmation at the selected hub.</span></li><li><b>02</b><strong>Verify rider ID</strong><span>Match the rider details and rental agreement.</span></li><li><b>03</b><strong>Inspect & unlock</strong><span>Complete the handover check and begin the rental.</span></li></ol></section>
+
+<section class="agreement-stage"><div class="agreement-paper reveal"><header><b>RIDEY</b><span>RENTAL AGREEMENT / DEMO</span></header><div class="paper-lines"><i></i><i></i><i></i><i></i><i></i></div><footer><span>RIDER SIGNATURE</span><span>HUB CHECK</span></footer></div><div class="agreement-copy reveal"><small>05 / AGREEMENT</small><h2>Keep the terms<br>with the ride.</h2><p>The production version can generate a real PDF rental agreement after booking. This template includes the download interaction as a front-end placeholder.</p><button id="agreementBtn" type="button">Download demo agreement ↓</button><small id="agreementStatus" role="status"></small></div></section>
+
+<section class="calendar-stage"><div class="calendar-copy reveal"><small>06 / SAVE THE RIDE</small><h2>Put pickup and<br>return on your day.</h2><p>Use the confirmation to create a calendar reminder for pickup and the return deadline.</p><button id="calendarBtn" type="button">Add demo ride to calendar ＋</button><small id="calendarStatus" role="status"></small></div><div class="calendar-visual" aria-hidden="true"><span>SEP</span><strong>15</strong><div><i></i><b>09:00 PICKUP</b></div><div><i></i><b>13:00 RETURN</b></div></div></section>
+
+<section class="confirmation-cta"><div class="cta-route" aria-hidden="true"><svg viewBox="0 0 900 200"><path d="M0 135 C190 20 310 190 470 90 S710 30 900 110"/></svg><b>⚡</b></div><div class="confirmation-cta-copy reveal"><small>07 / WHAT'S NEXT</small><h2>Your booking is clear.<br><em>Manage the ride next.</em></h2><p>Review another scooter or return to your booking while the customer dashboard is being added to this template.</p><div><a class="primary-action" href="book-now.html">Edit this booking →</a><a href="fleet.html">Explore another scooter</a></div></div></section>
+</main><footer class="site-footer-grid">
+  <div class="footer-grid-inner">
+    <div class="footer-column footer-brand-column">
+      <a class="footer-brand" href="index.html"><i>⚡</i> Ridey</a>
+      <p>Flexible scooter rental built for quick, simple city movement.</p>
+      <div class="footer-social" aria-label="Social links"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="X">X</a></div>
+    </div>
+    <div class="footer-column">
+      <h3>Explore Ridey</h3>
+      <a href="about-us.html">About Us</a><a href="fleet.html">Our Fleet</a><a href="pricing.html">Pricing</a><a href="coverage-area.html">Coverage Area</a><a href="gallery.html">Gallery</a>
+    </div>
+    <div class="footer-column">
+      <h3>Ride Support</h3>
+      <a href="services.html">Services</a><a href="safety-deposit.html">Safety & Deposit</a><a href="blog.html">Ride Journal</a><a href="contact.html">Contact Us</a><a href="book-now.html">Book a Ride</a>
+    </div>
+    <div class="footer-column footer-contact-column">
+      <span class="footer-label">RIDER HELP</span><a class="footer-contact-main" href="mailto:hello@ridey.example">hello@ridey.example</a>
+      <span class="footer-label">CALL</span><a class="footer-contact-main" href="tel:+15550102468">+1 555 010 2468</a>
+      <div class="footer-app-row"><a href="#" aria-label="Ridey app for iOS"><small>AVAILABLE FOR</small><b>iOS</b></a><a href="#" aria-label="Ridey app for Android"><small>AVAILABLE FOR</small><b>Android</b></a></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Ridey. Built for the moving city.</span><div><a href="#">Terms</a><a href="#">Privacy</a><a href="#top">Back to top ↑</a></div></div>
+</footer><script src="assets/js/main.js" defer></script><script src="assets/js/booking-confirmation.js" defer></script><script src="assets/js/theme.js"></script>
+</body></html>
